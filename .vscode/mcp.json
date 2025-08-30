@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"mcp-jira-connection": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"--loader",
+				"ts-node/esm",
+				"src/server.ts"
+			]
+		}
+	},
+	"inputs": []
+}
